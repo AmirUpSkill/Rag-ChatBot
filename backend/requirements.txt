@@ -1,0 +1,24 @@
+# Core
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Auth & Security
+python-jose[cryptography]
+passlib[bcrypt]
+httpx
+itsdangerous
+
+# Supabase
+supabase
+
+# Config & Validation
+pydantic
+pydantic-settings
+python-dotenv
+
+# Session
+starlette
+
+# Utils
+python-dateutil
