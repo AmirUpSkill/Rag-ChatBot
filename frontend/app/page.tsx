@@ -1,22 +1,11 @@
+import { Header } from "@/components/shared/header";
 import { Button } from "@/components/ui/button";
 
 export default function LandingPage() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
-      <header className="border-b border-border/50 backdrop-blur-sm sticky top-0 z-50">
-        <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-          <h1 className="text-xl font-semibold text-foreground">RAG ChatBot</h1>
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" size="sm">
-              Toggle Theme
-            </Button>
-            <Button size="sm" className="bg-brand hover:bg-brand-hover">
-              Sign In
-            </Button>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       {/* Hero Section */}
       <main className="flex-1 flex items-center justify-center">
